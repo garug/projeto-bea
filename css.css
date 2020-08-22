@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff176;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    width: 75%;
+    margin: 50px auto;
+    background-color: #263238;
+    padding: 25px;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    border: 1px solid #888;
+    list-style: none;
+    margin: 0;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    color:#fff176;
+}
+
+.btn {
+    cursor: pointer;
+    background: #fff176;
+    color: #263238;
+    border-radius: 5px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    padding: 15px 15px;
+    margin: 0 2.5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fbc02d;
+    color: #263238 !important;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+}
+
+.title div {
+    flex-grow: 1;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section article {
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #888;
+}
+
+section article h1 {
+    color: #fbc02d;
+}
+
+section article img {
+    width: 100%;
+}
